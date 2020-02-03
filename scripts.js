@@ -1,6 +1,7 @@
-var message = "Testing Variables!"
+var message = "Testing Prompts!"
 alert(message);
-message = "Changing Variables in JavaScript";
+prompt("What is your name?");
+message = "Using Prompts in JavaScript!";
 alert(message);
-document.write("Looks like variables are working");
+document.write("Looks like prompts are working");
 console.log("Program Complete");
